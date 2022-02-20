@@ -1,0 +1,5 @@
+< ---tag is used to give the docker image of python-djagno---------------------------------->
+docker build --tag python-django .
+docker build - < Dockerfile --tag python-django
+
+docker run --publish 8000:8000 python-django
